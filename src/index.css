@@ -42,6 +42,18 @@ body {
   border: 1px solid rgba(0, 0, 0, 0);
   cursor: pointer;
 }
+.button:disabled,
+.button[disabled] {
+  color: var(--dark-03);
+  background: var(--dark-05);
+}
+.button:hover[disabled] {
+  color: var(--dark-03);
+  background: var(--dark-05);
+  border: 1px solid transparent;
+  background-clip: border-box !important;
+  -webkit-background-clip: border-box !important;
+}
 .button:hover {
   color: transparent;
   background-clip: text !important;

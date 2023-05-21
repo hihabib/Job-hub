@@ -17,6 +17,8 @@ const Details = ({ id }) => {
     contactNumber,
     email,
     location,
+    handleApplyNow,
+    isDiasbledApplyButton,
   } = useDetails(id);
 
   return (
@@ -83,6 +85,8 @@ const Details = ({ id }) => {
           </div>
         </div>
         <button
+          onClick={() => handleApplyNow(id)}
+          disabled={isDiasbledApplyButton}
           style={{ width: "100%", marginBottom: "60px" }}
           className="button"
         >
