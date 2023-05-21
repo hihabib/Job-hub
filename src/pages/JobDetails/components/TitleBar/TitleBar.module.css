@@ -1,0 +1,12 @@
+.titleBar {
+  background-color: var(--top-background);
+}
+.titleBar > div {
+  width: var(--width-lg);
+  margin: 0 auto;
+  padding: 100px 0 ;
+}
+.titleBar h1 {
+  margin: 0;
+  text-align: center;
+}

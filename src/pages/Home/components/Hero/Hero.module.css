@@ -1,5 +1,5 @@
 .hero {
-  background-color: rgba(126, 144, 254, 0.1);
+  background-color: var(--top-background);
 }
 .hero > div {
   width: var(--width-lg);

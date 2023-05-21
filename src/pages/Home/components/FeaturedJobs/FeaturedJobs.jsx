@@ -1,25 +1,11 @@
 import classes from "./FeaturedJobs.module.css";
 import locationIcon from "./images/location.png";
 import dollarIcon from "./images/dollar.png";
-import { useEffect, useState } from "react";
+import useFeaturedJobs from "./hooks/useFeaturedJobs";
+import { Link } from "react-router-dom";
 
 const FeaturedJobs = () => {
-  const [jobs, setJobs] = useState([]);
-  useEffect(() => {
-    fetch("./fakeData.json")
-      .then((res) => res.json())
-      .then((jobs) => setJobs(jobs.slice(0, 4)));
-  }, []);
-
-  const handleSeeAllJobs = (e) => {
-    e.preventDefault();
-    fetch("./fakeData.json")
-      .then((res) => res.json())
-      .then((jobs) => {
-        e.target.style.display = "none";
-        setJobs(jobs);
-      });
-  };
+  const { jobs, handleSeeAllJobs } = useFeaturedJobs();
   return (
     <section className={classes.featuredJobs}>
       <h1>Featured Jobs</h1>
@@ -56,9 +42,13 @@ const FeaturedJobs = () => {
                 <div>Salary : {salary}</div>
               </div>
             </div>
-            <a href="#" style={{ marginTop: "20px" }} className="button">
+            <Link
+              to={`/jobs/${id}`}
+              style={{ marginTop: "20px" }}
+              className="button"
+            >
               View Details
-            </a>
+            </Link>
           </div>
         ))}
       </div>

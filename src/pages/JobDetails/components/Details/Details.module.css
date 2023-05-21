@@ -1,0 +1,45 @@
+.details {
+  width: var(--width-lg);
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+}
+.details article {
+  flex-basis: 70%;
+}
+.details article p {
+  margin-bottom: 24px;
+  line-height: 32px;
+  color: var(--dark-03);
+}
+.details article p strong {
+  color: var(--dark-01);
+}
+
+.card {
+  background: var(--top-background);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.detailsConainer {
+  display: flex;
+  row-gap: 15px;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.detailsList {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.detailsList p {
+  color: var(--dark-03);
+  margin: 0;
+}
+.detailsList p > strong {
+  color: var(--dark-02);
+}

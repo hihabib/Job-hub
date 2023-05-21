@@ -9,6 +9,9 @@ const Header = () => {
         <nav>
           <ul className={classes.menu}>
             <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
               <NavLink to="/statistics">Statistics</NavLink>
             </li>
             <li>
