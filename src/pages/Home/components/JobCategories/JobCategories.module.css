@@ -1,0 +1,40 @@
+.jobCategories {
+  padding: 60px 0;
+  width: var(--width-lg);
+  margin: 0 auto;
+}
+.jobCategories > h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 50px;
+  text-align: center;
+}
+.jobCategories > p {
+  text-align: center;
+  color: var(--dark-03);
+}
+.categories {
+  display: flex;
+  column-gap: 25px;
+  margin-top: 32px;
+}
+.card {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+  padding: 30px;
+  border-radius: var(--radius);
+  flex-basis: 25%;
+}
+.card h3 {
+    color: var(--dark-02);
+    font-size: 20px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+.card p {
+    color: var(--dark-04);
+    margin: 0;
+}
