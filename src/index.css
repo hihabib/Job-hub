@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif; 
+
+*/
+
+:root {
+  --dark-01: #1a1919;
+  --dark-02: #474747;
+  --dark-03: #757575;
+  --dark-04: #a3a3a3;
+  --dark-05: #d1d1d1;
+  --dark-06: #e8e8e8;
+  --dark-07: #f4f4f4;
+  --primary: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  --radius: 8px;
+  --width-lg: 992px;
+  --manrope: "Manrope", sans-serif;
+  --Inter: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--manrope)
+}
+.button {
+  color: white;
+  background: var(--primary);
+  border-radius: var(--radius);
+  padding: 19px 28px;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
