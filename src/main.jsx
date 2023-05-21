@@ -5,6 +5,8 @@ import Layout from "./components/Layout/Layout.jsx";
 import Home from "./pages/Home/Home";
 import JobDetails from "./pages/JobDetails/JobDetails";
 import AppliedJobs from "./pages/AppliedJobs/AppliedJobs";
+import NoutFound from "./pages/NotFound/NoutFound";
+import Statictics from "./pages/Statistics/Statistics";
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -30,8 +32,12 @@ const router = createBrowserRouter([
         element: <AppliedJobs />,
       },
       {
+        path: "/statistics",
+        element: <Statictics />,
+      },
+      {
         path: "/*",
-        element: "Not found",
+        element: <NoutFound />,
       },
     ],
   },

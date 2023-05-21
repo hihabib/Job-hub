@@ -1,0 +1,6 @@
+.notFound {
+  padding: 100px 0;
+  width: var(--width-lg);
+  margin: 0 auto;
+  text-align: center;
+}

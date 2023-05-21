@@ -26,6 +26,7 @@ const useJobList = () => {
         });
         setAppliedJobs(filteredJob);
       });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filter]);
 
   const handleFilter = (e) => {

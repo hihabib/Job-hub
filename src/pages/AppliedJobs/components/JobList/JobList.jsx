@@ -12,6 +12,7 @@ const JobList = () => {
             <option value="">Filter By</option>
             <option value="Remote">Remote</option>
             <option value="Onsite">On Site</option>
+            <option value="Full time">Full time</option>
           </select>
         </div>
       </div>
