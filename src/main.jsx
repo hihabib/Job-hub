@@ -7,6 +7,7 @@ import JobDetails from "./pages/JobDetails/JobDetails";
 import AppliedJobs from "./pages/AppliedJobs/AppliedJobs";
 import NoutFound from "./pages/NotFound/NoutFound";
 import Statictics from "./pages/Statistics/Statistics";
+import Blog from "./pages/Blog/Blog";
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statictics />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
       },
       {
         path: "/*",

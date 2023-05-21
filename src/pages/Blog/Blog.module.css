@@ -1,0 +1,4 @@
+.blog {
+  width: var(--width-lg);
+  margin: 100px auto;
+}
