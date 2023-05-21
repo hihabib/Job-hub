@@ -6,7 +6,13 @@
     "company": "Google LLC",
     "jobType": ["remote", "Full time"],
     "location": "Dhaka, Bangladesh",
-    "salary": "100K - 150K"
+    "salary": "100K - 150K",
+    "jobDescription": "As a Technical Database Engineer at Google LLC, you will be responsible for managing and optimizing large-scale databases. You will work with a team of experienced engineers to ensure data integrity, performance, and scalability. Strong knowledge of database management systems and SQL is required.",
+    "jobResponsibility": "• Designing and implementing database structures and schemas.\n• Monitoring and optimizing database performance.\n• Troubleshooting and resolving database issues.\n• Collaborating with cross-functional teams to ensure data consistency and availability.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field.",
+    "experience": "3-5 years of experience in database administration or related roles.",
+    "contactNumber": "+8801750-000000",
+    "email": "info@gmail.com"
   },
   {
     "title": "Senior Product Designer",
@@ -15,7 +21,13 @@
     "company": "Netflix",
     "jobType": ["Onsite", "Full time"],
     "location": "Dhaka, Bangladesh",
-    "salary": "110K - 200K"
+    "salary": "110K - 200K",
+    "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+    "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educationalRequirements": "Bachelor degree to complete any reputational university.",
+    "experience": "2-3 Years in this field.",
+    "contactNumber": "+8801750-000000",
+    "email": "info@gmail.com"
   },
   {
     "title": "Software Engineer",
@@ -24,7 +36,13 @@
     "company": "Tesla",
     "jobType": ["Onsite", "Full time"],
     "location": "Dhaka, Bangladesh",
-    "salary": "120K - 150K"
+    "salary": "120K - 150K",
+    "jobDescription": "As a Software Engineer at Tesla, you will be responsible for developing innovative software solutions for electric vehicles. You will work with a talented team to design and implement software features that contribute to the advancement of sustainable transportation. Proficiency in programming languages such as Python, C++, or Java is required.",
+    "jobResponsibility": "• Developing high-quality software solutions based on technical specifications.\n• Collaborating with cross-functional teams to define software requirements.\n• Writing clean, efficient, and maintainable code.\n• Conducting unit testing and debugging to ensure software reliability.\n• Participating in code reviews and providing constructive feedback.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field.",
+    "experience": "3-5 years of experience in software development.",
+    "contactNumber": "+8801750-000000",
+    "email": "info@gmail.com"
   },
   {
     "title": "Junior Software Engineer",
@@ -33,7 +51,13 @@
     "company": "Microsoft",
     "jobType": ["Onsite", "Full time"],
     "location": "Dhaka, Bangladesh",
-    "salary": "80K - 120K"
+    "salary": "80K - 120K",
+    "jobDescription": "As a Junior Software Engineer at Microsoft, you will have the opportunity to work on diverse software projects and gain valuable experience in the field. You will collaborate with senior engineers to develop and maintain software applications, contributing to the success of our products and services. Strong programming skills and a passion for technology are essential.",
+    "jobResponsibility": "• Assisting in the design, development, and testing of software applications.\n• Collaborating with team members to troubleshoot and resolve software issues.\n• Participating in code reviews and providing suggestions for improvement.\n• Learning and applying new technologies and programming languages.\n• Contributing to the documentation and maintenance of software systems.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
+    "experience": "1-2 years of experience in software development.",
+    "contactNumber": "+8801750-000000",
+    "email": "info@gmail.com"
   },
   {
     "title": "Data Manager",
@@ -42,7 +66,13 @@
     "company": "Google LLC",
     "jobType": ["Part time", "Full time"],
     "location": "Dhaka, Bangladesh",
-    "salary": "50K - 70K"
+    "salary": "50K - 70K",
+    "jobDescription": "As a Data Manager at Google LLC, you will be responsible for overseeing data management processes and ensuring data quality and integrity. You will work closely with cross-functional teams to develop and implement data management strategies, policies, and procedures. Strong analytical and organizational skills are required for this role.",
+    "jobResponsibility": "• Developing and implementing data management policies and procedures.\n• Ensuring data quality, integrity, and security.\n• Collaborating with stakeholders to define data requirements and standards.\n• Overseeing data governance activities, including data cleansing, data mapping, and data modeling.\n• Monitoring and resolving data-related issues and discrepancies.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Information Systems, or a related field.",
+    "experience": "3-5 years of experience in data management or a related field.",
+    "contactNumber": "+8801750-000000",
+    "email": "info@gmail.com"
   },
   {
     "title": "Front End Developer",
@@ -51,6 +81,12 @@
     "company": "Netflix",
     "jobType": ["Remote", "Full time"],
     "location": "Dhaka, Bangladesh",
-    "salary": "150K - 300K"
+    "salary": "150K - 300K",
+    "jobDescription": "As a Front End Developer at Netflix, you will be responsible for developing and maintaining user interfaces for our streaming platform. You will collaborate with designers and back-end developers to implement intuitive and responsive web interfaces. Strong proficiency in HTML, CSS, and JavaScript is required.",
+    "jobResponsibility": "• Developing and maintaining user interfaces for web applications.\n• Collaborating with designers to translate design mockups into functional web pages.\n• Implementing responsive design and ensuring cross-browser compatibility.\n• Optimizing web pages for maximum speed and scalability.\n• Conducting code reviews and providing feedback to improve code quality.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field.",
+    "experience": "3-5 years of experience in front-end development.",
+    "contactNumber": "+8801750-000000",
+    "email": "info@gmail.com"
   }
 ]
