@@ -4,8 +4,7 @@ import dollarIcon from "./images/dollar.png";
 import locationIcon from "./images/location.png";
 
 const Card = ({ job }) => {
-  console.log(job);
-  const { id, title, logo, company, jobType, location, salary } = job;
+  const { id, title, logo, company, jobType, location, salary } = job ?? {};
   return (
     <div className={classes.card}>
       <div className={classes.image}>
@@ -15,8 +14,8 @@ const Card = ({ job }) => {
         <h3>{title}</h3>
         <span className={classes.company}>{company}</span>
         <div className={classes.jobType}>
-          {jobType.map((type) => (
-            <a key={id} href="#" className="button-outline">
+          {jobType?.map((type) => (
+            <a key={id+type} href="#" className="button-outline">
               {type}
             </a>
           ))}

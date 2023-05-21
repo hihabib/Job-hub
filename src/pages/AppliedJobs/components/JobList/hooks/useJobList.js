@@ -4,19 +4,34 @@ import { getAllAppliedJobs } from "../../../../../utilities/fakedb";
 const useJobList = () => {
   const [appliedJobs, setAppliedJobs] = useState([]);
   const appliedJobsIds = getAllAppliedJobs();
+  const [filter, setFilter] = useState("");
   useEffect(() => {
     fetch("/fakeData.json")
       .then((res) => res.json())
       .then((allJobs) => {
         const filteredJob = [];
         appliedJobsIds.forEach((id) => {
-          const foundJob = allJobs.find((job) => job.id === id);
-          filteredJob.push(foundJob);
+          let foundJob;
+          switch (filter) {
+            case "":
+              foundJob = allJobs.find((job) => job.id === id);
+              filteredJob.push(foundJob);
+              break;
+            default:
+              foundJob = allJobs.find(
+                (job) => job.id === id && job.jobType.includes(filter)
+              );
+              foundJob && filteredJob.push(foundJob);
+          }
         });
         setAppliedJobs(filteredJob);
       });
-  }, []);
+  }, [filter]);
 
-  return appliedJobs;
+  const handleFilter = (e) => {
+    setFilter(e.target.value);
+  };
+
+  return { appliedJobs, handleFilter };
 };
 export default useJobList;

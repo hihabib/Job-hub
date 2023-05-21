@@ -5,3 +5,17 @@
   flex-direction: column;
   row-gap: 32px;
 }
+
+.select {
+  border: none;
+  outline: none;
+  background-color: var(--dark-06);
+  padding: 10px;
+}
+.filter {
+  background-color: var(--dark-06);
+  display: inline-block;
+  width: max-content;
+  padding: 5px 15px;
+  border-radius: var(--radius);
+}
