@@ -6,7 +6,7 @@
 
 .categories {
   display: flex;
-  column-gap: 25px;
+  gap: 25px;
   margin-top: 32px;
 }
 .card {
@@ -20,12 +20,32 @@
   flex-basis: 25%;
 }
 .card h3 {
-    color: var(--dark-02);
-    font-size: 20px;
-    font-weight: 800;
-    white-space: nowrap;
+  color: var(--dark-02);
+  font-size: 20px;
+  font-weight: 800;
+  white-space: nowrap;
 }
 .card p {
-    color: var(--dark-04);
-    margin: 0;
+  color: var(--dark-04);
+  margin: 0;
+}
+@media (max-width: 1150px) {
+  .jobCategories {
+    width: var(--width-md);
+  }
+  .card {
+    flex-basis: calc(50% - 25px);
+  }
+  .categories {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 780px) {
+  .jobCategories {
+    width: calc(100% - 20px);
+  }
+  .categories {
+    flex-direction: column;
+  }
 }

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
 
-
 :root {
   --dark-01: #1a1919;
   --dark-02: #474747;
@@ -12,6 +11,8 @@
   --primary: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
   --radius: 8px;
   --width-lg: 1100px;
+  --width-md: 768px;
+  --width-sm: 576px;
   --manrope: "Manrope", sans-serif;
   --Inter: "Inter", sans-serif;
   --top-background: rgba(126, 144, 254, 0.1);

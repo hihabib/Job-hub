@@ -34,3 +34,20 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
+
+@media (max-width: 1150px) {
+  .hero > div {
+    width: var(--width-md);
+  }
+  .hero a {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 780px) {
+  .hero > div {
+    width: calc(100% - 20px);
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

@@ -26,3 +26,17 @@
   margin-right: 20px;
   column-gap: 5px;
 }
+@media (max-width: 1150px) {
+  .featuredJobs {
+    width: var(--width-md);
+  }
+}
+
+@media (max-width: 780px) {
+  .featuredJobs {
+    width: calc(100% - 20px);
+  }
+  .jobs {
+    flex-direction: column;
+  }
+}
