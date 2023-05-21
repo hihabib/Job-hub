@@ -1,0 +1,24 @@
+.footer {
+  background: var(--dark-01);
+  padding: 130px 0;
+}
+.footer > div {
+  width: var(--width-lg);
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.footer > div > div {
+  flex-basis: 17%;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer ul li {
+    line-height: 40px;
+}

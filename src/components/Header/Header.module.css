@@ -1,0 +1,30 @@
+.header {
+    background-color: rgba(126, 144, 254, 0.1);
+}
+.header>div {
+  width: var(--width-lg);
+  margin: 0 auto;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.title {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    column-gap: 42px;
+}
+
+.menu a {
+    color: var(--dark-03);
+    text-decoration: none;
+    font-weight: 500;
+}

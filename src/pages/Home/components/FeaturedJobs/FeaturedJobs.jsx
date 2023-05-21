@@ -63,7 +63,7 @@ const FeaturedJobs = () => {
         ))}
       </div>
       <div
-        style={{ display: "flex", justifyContent: "center", marginTop: "40px" }}
+        style={{ display: "flex", justifyContent: "center", margin: "40px 0" }}
       >
         <a onClick={handleSeeAllJobs} href="#" className="button">
           See All Jobs
