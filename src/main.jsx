@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout/Layout.jsx";
 import Home from "./pages/Home/Home";
 import JobDetails from "./pages/JobDetails/JobDetails";
+import AppliedJobs from "./pages/AppliedJobs/AppliedJobs";
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/jobs/:id",
         element: <JobDetails />,
+      },
+      {
+        path: "/applied-jobs",
+        element: <AppliedJobs />,
       },
       {
         path: "/*",

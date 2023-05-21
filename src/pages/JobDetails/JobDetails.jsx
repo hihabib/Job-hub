@@ -7,7 +7,7 @@ const JobDetails = () => {
   const { id } = useParams();
   return (
     <section className={classes.jobDetails}>
-      <TitleBar />
+      <TitleBar>Job Details</TitleBar>
       <Details id={id} />
     </section>
   );

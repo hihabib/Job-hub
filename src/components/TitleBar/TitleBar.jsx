@@ -1,10 +1,10 @@
 import classes from "./TitleBar.module.css";
 
-const TitleBar = () => {
+const TitleBar = ({ children }) => {
   return (
     <div className={classes.titleBar}>
       <div>
-        <h1>Job Details</h1>
+        <h1>{children}</h1>
       </div>
     </div>
   );
