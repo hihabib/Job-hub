@@ -3,16 +3,7 @@
   width: var(--width-lg);
   margin: 0 auto;
 }
-.jobCategories > h1 {
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 50px;
-  text-align: center;
-}
-.jobCategories > p {
-  text-align: center;
-  color: var(--dark-03);
-}
+
 .categories {
   display: flex;
   column-gap: 25px;

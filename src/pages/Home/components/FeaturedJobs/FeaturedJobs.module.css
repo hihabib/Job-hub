@@ -1,0 +1,28 @@
+.featuredJobs {
+  width: var(--width-lg);
+  margin: 0 auto;
+}
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 50px;
+}
+.card {
+  border: 1px solid var(--dark-04);
+  border-radius: var(--radius);
+  padding: 30px;
+  flex-basis: calc(50% - 25px);
+}
+.company {
+  background: var(--primary);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.details {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  column-gap: 5px;
+}

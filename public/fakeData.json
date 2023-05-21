@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Technical Database Engineer",
+    "id": "0242220005101707",
+    "logo": "./fakeDataImage/google.png",
+    "company": "Google LLC",
+    "jobType": ["remote", "Full time"],
+    "location": "Dhaka, Bangladesh",
+    "salary": "100K - 150K"
+  },
+  {
+    "title": "Senior Product Designer",
+    "id": "0242220005101708",
+    "logo": "./fakeDataImage/netflix.png",
+    "company": "Netflix",
+    "jobType": ["Onsite", "Full time"],
+    "location": "Dhaka, Bangladesh",
+    "salary": "110K - 200K"
+  },
+  {
+    "title": "Software Engineer",
+    "id": "0242220005101709",
+    "logo": "./fakeDataImage/tesla.png",
+    "company": "Tesla",
+    "jobType": ["Onsite", "Full time"],
+    "location": "Dhaka, Bangladesh",
+    "salary": "120K - 150K"
+  },
+  {
+    "title": "Junior Software Engineer",
+    "id": "0242220005101710",
+    "logo": "./fakeDataImage/microsoft.png",
+    "company": "Microsoft",
+    "jobType": ["Onsite", "Full time"],
+    "location": "Dhaka, Bangladesh",
+    "salary": "80K - 120K"
+  },
+  {
+    "title": "Data Manager",
+    "id": "0242220005101711",
+    "logo": "./fakeDataImage/google.png",
+    "company": "Google LLC",
+    "jobType": ["Part time", "Full time"],
+    "location": "Dhaka, Bangladesh",
+    "salary": "50K - 70K"
+  },
+  {
+    "title": "Front End Developer",
+    "id": "0242220005101712",
+    "logo": "./fakeDataImage/netflix.png",
+    "company": "Netflix",
+    "jobType": ["Remote", "Full time"],
+    "location": "Dhaka, Bangladesh",
+    "salary": "150K - 300K"
+  }
+]
